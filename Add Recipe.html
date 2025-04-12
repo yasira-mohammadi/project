@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+        nav {
+         height: 40px;
+         width: 100%;
+         background-color: #333;
+         color: #eee;
+         position: fixed;
+       }
+       nav ul {
+         padding: 0;
+         margin: 0;
+       }
+       nav li {
+         display: inline;
+         float: left;
+         }
+         nav a {
+         display: inline-block;
+         width: 100px;
+         text-align: center;
+         text-decoration: none;
+         padding: 10px 0;
+         color: #eee;
+         text-decoration: none;
+       }
+       nav li:hover {
+         background-color: #444;
+       }
+       nav a#openup {
+         display: none;
+       }
+       footer{
+  background-color: #333; 
+  color: #eee;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.sc{
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    
+    
+  }
+  .search-box{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+
+  }
+  .search-bo{
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  .search-bo:hover {
+    background-color: #45a049;
+  }
+       
+      
+         
+           </style>
+          <header>
+                 
+                         
+                             
+                <nav>
+                     <ul>
+                         <li>
+                             <a href="Home.html">Home</a>
+                        </li>
+                         <li>
+                             <a href="Add Recipe.html">Add Recipe</a>
+                        </li>
+                         <li>
+                          <a href="Recipe List.html">Recipe List</a>
+                         </li>
+                     </ul>
+                 </nav>
+                  
+                   </header><br> 
+                   <br>
+    <br>
+    <br>
+    <br>
+    <div class="sc">
+      <form action="" method="POST">
+        <input type="text" class="search-box" placeholder="search" name="search">
+        <button type="submit" class="search-bo">search</button>
+      </form>
+    </div>
+    <br>
+    <br> 
+<body>
+        
+        
+           <div>
+                <img src="imgs/p1.jpg" width="200" height="200" alt="Yammy pizza">
+                <img src="imgs/IMG_20250410_150437_971.jpg" width="200" height="200" alt="Yammy pizza">
+                <img src="imgs/IMG_20250410_181103_706.jpg" width="200" height="200" alt="Yammy pizza">
+               </div>
+           
+        <br>
+        <br>
+    <form action="Thank you.html" method="POST">
+        <label for="m">Your Name:</label><br>
+        <input   type="text" name="name" id="m" placeholder="Name" required minlength="7"><br>
+        <br>
+        <label for="n">What Type Pizza?</label><br>
+       
+        <select id="n" name="Add">
+            <option value="Cheese Pizza">Cheese Pizza</option>
+            <option value="Vegetable Pizza">Vegetable Pizza</option>
+            <option value="Meat Pizza">Meat Pizza</option>
+            <option value="Chick pizza">Chick pizza</option>
+            <option>other</option>
+         </select> <br>
+         <br>
+        <label for="h">List Here Ingredients:</label><br>
+        <textarea id="h" placeholder="Ingredients" required minlength="60"></textarea><br>
+        <br>
+        <label for="r">Yuor Riecp:</label><br>
+        <textarea id="r" placeholder="Riecp" required minlength="60" ></textarea><br>
+        <br>
+        <label for="i">Imges:</label><br>
+        <br>
+        <input type="file" id="i"  required minlength="3"><br>
+         <br>
+         <label>Click Here For Add Riecp!</label>
+         <p>👇</p>
+         <input type="submit" required minlength="3">
+         <button type="reset">Reset</button>
+       
+
+    </form>
+</body>
+<footer>
+        <div>
+                <p>Made By Nisoo</p>
+                <p>Email:naismaibrahim692@gmail.com</p>
+        </div>
+          
+         
+      </footer>
+</html>
